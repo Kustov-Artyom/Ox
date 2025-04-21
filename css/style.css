@@ -102,6 +102,30 @@ header {
     background-color: #0000ff;
 }
 
+.header--fixed {
+    height: 130px;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    border-bottom: 1px solid #08082A;
+    animation: show 1s ease-in-out;
+    z-index: 10;
+    opacity: 100%;
+}
+
+@keyframes show {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
 /* -------------------MAIN------------------- */
 
 /* -----Resourses----- */
